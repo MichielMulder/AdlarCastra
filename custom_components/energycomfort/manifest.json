@@ -1,0 +1,12 @@
+{
+  "domain": "energycomfort",
+  "name": "Energy Comfort",
+  "codeowners": ["@MichielMulder"],
+  "config_flow": true,
+  "dependencies": ["modbus"],
+  "documentation": "https://github.com/MichielMulder/energycomfort",
+  "iot_class": "local_polling",
+  "issue_tracker": "https://github.com/veista/MichielMulder/issues",
+  "requirements": ["pymodbus==3.8.3"],
+  "version": "1.2.19"
+}
